@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body> 
+<h1> Form to participate in hackathon</h1>
+<form action="post">
+    <label for="username"> Enter your username</label>
+        <input type="text" id="username" name="username" placeholder=""> 
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required> 
+        </div>
+        <div>
+            <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+        </div>  
+      
+
+        <div>
+            <input type="checkbox" id="stay tuned" name="stay tuned" value="yes">
+<label for="stay tuned">Stay Tuned</label>
+        </div>
+        <label for="comment"> enter your comment</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+        
+        
+    <div>
+        <select name="guns">
+            <option value="Ak-47"> Ak-47 </option>
+            <option value="Ak-48"> Ak-48 </option>
+            <option value="Ak-49"> Ak-49 </option>
+            <option value="Ak-45"> Ak-45 </option>
+            </select>
+            <input type="submit" value="submit">
+        
+    </div>
+    </form>
+    
+</body>
+</html>
