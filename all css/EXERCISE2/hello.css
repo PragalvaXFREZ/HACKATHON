@@ -1,0 +1,12 @@
+h1{
+    color: purple;
+    font-size: 15px;
+}
+ .yellow{
+    color: red;
+    background-color: yellow;
+}
+div p {
+    background-color: blue;
+    color: white;
+}
