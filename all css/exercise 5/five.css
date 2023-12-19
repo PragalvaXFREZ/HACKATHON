@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Cinzel', serif;;
+}
+
+body {
+    background-color: #6e6653;
+}
+
+.nav {
+    background-color: #3b3933;
+    color: white;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+
+}
+
+span {
+    border: none;
+    padding: 25px;
+    position: sticky;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box1 {
+    border: 2px solid #483b14;
+    margin-top: 80px;
+    width: 25vw;
+    height: 60vh;
+    margin-left: 80px;
+    background-color: #483b14;
+    color: white;
+}
+
+.box2 {
+    border: 2px solid #483b14;
+    margin-top: 80px;
+    width: 25vw;
+    height: 60vh;
+    margin-left: 550px;
+    margin-right: 80px;
+    background-color: #483b14;
+    color: white;
+}
+
+.logo
+{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+
+button{
+    text-align: center;
+    background-color:#3b3933 ;
+    color: white;
+    padding: 3px;
+    margin-top:10px;
+}
+button:hover {
+    background-color: #483b14;
+    cursor: pointer;
+}
+
+.container {
+    border: none;
+    margin-top: 30px;
+    width: 900px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #3b3933;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+span:hover{
+    color: #6e6653 ;
+    cursor: pointer;
+}
+.container h1:hover{
+    color:  #6e6653;
+    cursor: none;
+}

@@ -1,0 +1,61 @@
+
+.card3{
+    background-color: white;
+    width: 198px;
+    border-radius: 7px;
+    padding: 0 0 23px 0;
+    margin: 0 0 0 20px;
+}
+.picture3{
+    padding: 5px;
+}
+.capsules3{
+    
+    padding: 0 1px 0 3px;
+    
+}
+.capsules3 span{
+    color:black;
+    font-size: 8px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    padding: 0px 6px;
+}
+.content3{
+    padding: 7px 13px ;
+    font-family:'Poppins', sans-serif;
+}
+.content3 p{
+    font-size: 10px;
+    color: grey;
+}
+
+.button3{
+    text-align: center;
+}
+
+.button3 button:hover{
+    
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}
+
+.button3 button{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 234);
+    padding: 3px 7px 2px ;
+    margin: 3px;
+    cursor:pointer;
+
+}
+
+.capsules3 span:hover{
+    background-color: rgb(149, 149, 149);
+    cursor: pointer;
+}
+
+
+
