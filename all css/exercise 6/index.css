@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 100px;
+    
+}
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.right ul{
+    display: flex;
+    gap: 10px;
+}
+
+.right li{
+    list-style: none;
+    padding: 0 7px;
+    
+}
+
+.right ul :hover{
+    color: green;
+}

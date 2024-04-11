@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    float: center;
+    margin: left 50%;
+}

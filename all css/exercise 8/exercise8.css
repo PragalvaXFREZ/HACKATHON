@@ -1,0 +1,36 @@
+.box
+{
+    background-color: red;
+    height: 40vh;
+    width: 60vw;
+    position: absolute;
+    
+}
+
+.bounce
+{
+    background-color: blue;
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    animation: animator 10s linear  infinite alternate , ani1 10s infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes animator{
+    0%{
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes ani1 {
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(200px);
+    }
+    
+}

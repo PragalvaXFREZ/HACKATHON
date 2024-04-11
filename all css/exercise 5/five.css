@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
+
 * 
 {
     margin: 0;
@@ -33,22 +34,25 @@ span {
 .box1 {
     border: 2px solid #483b14;
     margin-top: 80px;
-    width: 25vw;
-    height: 60vh;
-    margin-left: 80px;
+    width: 280px;
+    height: 380px;
+    margin-left: 15%;
     background-color: #483b14;
     color: white;
+    box-sizing: border-box;
 }
 
 .box2 {
     border: 2px solid #483b14;
     margin-top: 80px;
-    width: 25vw;
-    height: 60vh;
-    margin-left: 550px;
+    width: 280px;
+    height: 380px;
     margin-right: 80px;
     background-color: #483b14;
     color: white;
+    float: right;
+    margin-left: 30vw;
+    box-sizing: border-box;
 }
 
 .logo
@@ -106,3 +110,4 @@ span:hover{
     color:  #6e6653;
     cursor: none;
 }
+

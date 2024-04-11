@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url("headerbackground.jpg");
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+     margin: -10px;
+    margin-bottom: -10px; 
+
+}
+.header1{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 9px;
+}
+.nav1{
+    display: block;
+    gap: 20px;
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    float: right;
+}
+.ul1{
+    display: flex
+
+
+}
+a{
+    color: white;
+    padding-right: 35px;
+    padding-left: 2px;
+    margin-right: 1px;
+    text-emphasis-color: white;
+    float: right;
+
+}
+a.hover{
+    color: darkolivegreen;
+}
+.p1{
+    color: white;
+    background-color: black;
+    padding: 25px;
+    border: 2px;
+    border-radius: 10px;
+    width: 230px;
+}
+.cities{
+    float: right;
+    background-image: url("city.jpg");
+    color: white;
+    padding: 25px;
+    border: 2px;
+    border-color: antiquewhite;
+    border-radius: 10px;
+}
+.searchbar1{
+    padding: 25px;
+    margin-top: 2px;
+    width: 10%vw;
+    height: 10%vh;
+    display: flex;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

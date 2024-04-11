@@ -1,0 +1,17 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transform: rotate(40deg); */
+    /* transform: skew(10deg); */
+    transform: translateY(30px) translateX(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}

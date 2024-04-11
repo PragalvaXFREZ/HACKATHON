@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.box{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:120px 100px ;
+    grid-template-rows: 100px 100px 100px;
+    gap: 80px;
+
+}
+
+.box1{
+    border: 1px solid black;
+    height: 50px;
+    width:  80px;
+}
+
+.bo{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.b{
+    grid-row: 3;
+    grid-column: 1;
+}
+.fa{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
