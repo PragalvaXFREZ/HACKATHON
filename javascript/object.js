@@ -7,3 +7,4 @@ let o= {
 console.log(o);
 o.pokemon="pikachu";
 console.log(o);
+console.log(o["name"])
