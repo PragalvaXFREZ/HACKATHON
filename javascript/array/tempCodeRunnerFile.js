@@ -1,1 +1,1 @@
-arr.push(100);
+poper=arr.shift();

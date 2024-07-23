@@ -2,7 +2,6 @@ let apple = 1;
 if (apple == 20) {
     console.log("Damn give me some apples");
 }
-
 else if (apple == 10) {
     console.log("Can I get an Apple?");
 }
